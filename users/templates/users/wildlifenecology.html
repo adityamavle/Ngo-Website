@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'table.css'%}">
+    <title>WILDLIFE AND ECOLOGY</title>
+</head>
+<body style="background-color: darkslategrey;background: -webkit-linear-gradient(left, darkblue, red);
+background: linear-gradient(to right, darkblue,red);">
+
+<h1> <b>WILDLIFE AND ECOLOGY NGOs</b>  </h1>
+<section style="height: 0%;">
+    <nav>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+          <li><a href="{% url 'childcare' %}">CHILDCARE</a></li>
+          <li><a href="{% url 'education'%}">EDUCATION</a></li>
+          <li><a href="{% url 'healthcare'%}">HEALTHCARE</a></li>
+          <li><a href="{% url 'womendev' %}">WOMEN DEVELOPMENT</a></li>
+          <li><a href="{% url 'agriculture'%}">AGRICULTURE</a></li>
+
+            <li style="float:right"><a href="{% url 'home'%}" class="active">BACK TO HOME</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="column">
+          <img src="{% static 'wildlife.gif'%}" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'w_e.gif'%}"alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'ecology.gif'%}" alt="" style="width:100%">
+        </div>
+      </div>
+    <br>
+    
+</section>
+
+    <section style="background-color: darkslategray;">
+        
+        
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-top-width: 5%; border: bottom width 10px;">
+            <thead>
+            
+                <tr style="background-color: darkslategray;">
+                    <td width="80px" style="font-size: 25px;color: #fff;">Sr No.</td>
+                    <td style="font-size: 25px;color: #fff;">Name of the NGO</td>
+                    <td style="font-size: 25px;color: #fff;">Location</td>
+                    <td style="font-size: 25px;color: #fff;">Link to their webpage</td>
+
+                </tr>
+                <tr>
+
+                  <td>1</td>
+                  <td>RESQ Charitable Trust:Pune</td>
+                  <td>Plot No. 3906, Paud Mulshi Road, Near 115 Hilltown, Near Chandni Chowk, Pune, Maharashtra 411022</td>
+                  <td> <a href="https://www.resqct.org/about">https://www.resqct.org/about</a> </td>
+              </tr>
+              <td>2</td>
+              <td>Wildlife Research & Conservation Society :Pune </td>
+              <td>127, Flat No. 1A, Shriyog Society, 3, Pashan - Sus Rd, Pashan, Pune, Maharashtra 411021</td>
+              <td> <a href="https://www.wrcsindia.org/ ">https://www.wrcsindia.org/</a> </td>
+              </tr>
+              <td>3</td>
+              <td>I.H.S Wildlife Rescue & Rehabilitation Center:Pune  </td>
+              <td>C/O. Rajiv Gandhi Zoological Park & Research Center.Pune Satara Road, Katraj, Pune 411 046</td>
+              <td> <a href="http://ihspune.com/animal-rescue-center-pune/">http://ihspune.com/animal-rescue-center-pune/
+              </a> </td>
+              </tr>
+              <td>4</td>
+              <td>Ecological Society:Pune </td>
+              <td>B-2, Jayanti Apartments, Senapati Bapat Road, near Ratna Hospital, Pune, Maharashtra 411016</td>
+              <td> <a href="https://www.ecological-society.com/our-projects">https://www.ecological-society.com/our-projects</a> </td>
+              </tr>
+              <td>5</td>
+              <td>Kalpavriksh:Environmental Action Group  </td>
+              <td>Kalpavriksh 5, Shree Datta Krupa 908, Deccan Gymkhana, Pune, Maharashtra 411004</td>
+              <td> <a href="https://kalpavriksh.org/">https://kalpavriksh.org/ </a> </td>
+              </tr>
+              <td>6</td>
+              <td>Karma Foundation </td>
+              <td>Jacinta Villa, Ward No. 8, Aundh, Pune, Maharashtra 411007</td>
+              <td> <a href="https://www.karmafoundation.ngo/
+                  ">https://www.karmafoundation.ngo/
+              </a> </td>
+              </tr>
+              <td>7</td>
+              <td>Make New Life   </td>
+              <td>FVC3+GQV, Chhatrapati Sambhaji Nagar, Yashwantrao Chavan Nagar, Pune, Maharashtra 411043</td>
+              <td> <a href="https://makenewlife.in/">https://makenewlife.in/ </a> </td>
+              </tr>
+              <td>8</td>
+              <td>Animal Rescue Trust  </td>
+              <td>ART Shelter, Manjri - Theur Road, Manjari Khurd, Pune - 412307, Behind Raj Washing Centre , Sonarwada (Map)</td>
+              <td> <a href="https://www.animalrescuetrustpune.com/">https://www.animalrescuetrustpune.com/ </a> </td>
+              </tr>
+              <td>9</td>
+              <td>FORREST    </td>
+              <td>315, Abhas, Lane No. 19, Mahatma Society, Kothrud, Pune - 411028</td>
+              <td> <a href="http://forrest-india.org/">http://forrest-india.org/ </a> </td>
+              </tr>
+              <td>10</td>
+              <td>Ecosan Services Foundation   </td>
+              <td>1st Floor, 24, Prashant Nagar, 721/1 Navi Sadashiv Peth, Pune - 411030. MH, India.</td>
+              <td> <a href="https://www.ecosanservices.org/">https://www.ecosanservices.org/ </a> </td>
+              </tr>
+              <td>11</td>
+              <td>Watershed organization Trust   </td>
+              <td>The Forum, 2nd Floor, Pune-Satara Road, Padmavati Corner, above Ranka Jwellers, Parvati, Pune, Maharashtra 411009</td>
+              <td> <a href="https://wotr.org/">https://wotr.org/ </a> </td>
+              </tr>
+              <td>12</td>
+              <td>Oikos for ecological services  </td>
+              <td>210, Siddharth Towers, Kothrud, Survey No.
+                  12/3B, Pune - 411038, Maharashtra, India.</td>
+              <td> <a href="https://www.oikos.in/html/about-oikos.html">https://www.oikos.in/html/about-oikos.html </a> </td>
+              </tr>
+              <td>13</td>
+              <td>AFARM  </td>
+              <td>Action for Agricultural
+                  Renewal in Maharashtra (AFARM)
+                  2/23 A-B Raisoni Park, Market Yard, Pune 411 037,</td>
+              <td> <a href="https://www.afarm.org/">https://www.afarm.org/ </a> </td>
+              </tr>
+              <td>14</td>
+              <td>Applied Environmental Research Foundation  </td>
+              <td>C 36, Krishnarjun, Madhavbaug Co-op Hsg Society,
+                  Shivatirthanagar, Paud Road, Kothrud,
+                  Pune - 411038,</td>
+              <td> <a href="http://www.aerfindia.org/">http://www.aerfindia.org/ </a> </td>
+              </tr>
+              <td>15</td>
+              <td>Vanarai  </td>
+              <td>498, Aditya Residency, Mitramandal Chowk, Parvati, Pune - 411 009.</td>
+              <td> <a href="https://www.vanarai.org/
+                  ">https://www.vanarai.org/
+              </a> </td>
+              </tr>
+              <td>16</td>
+              <td>Tropical Research and Development Centre (TRDC)  </td>
+              <td>#67, 1st Main, 3rd Cross, Nagarbhavi,
+                  Bangalore-560072
+                  Karnataka State, India.</td>
+              <td> <a href="https://www.trdcindia.org/">https://www.trdcindia.org/ </a> </td>
+              </tr>
+              <td>17</td>
+              <td>Sankalptaru  </td>
+              <td>Gaikwad Niwas House No. 38,S No. 176/2, Bhekrainager Dhamalwadi, Hadapsar
+                  Maharashtra – 412308</td>
+              <td> <a href="https://sankalptaru.org/">https://sankalptaru.org/</a> </td>
+              </tr>
+              
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+      
+      <!-- follow me template -->
+      <!-- follow me template -->
+      <div class="made-with-love">
+        <h2>Made with <i style="font-size: large;">♥</i> by <a href="{% url 'about'%}">Students of PICT</a> </h2>
+      </div>
+      <script src="{% static 'table.js'%}"></script>
+    
+    
+</body>
+</html>

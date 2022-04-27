@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+    <title>About us</title>
+</head>
+<body>
+    <div class="about-section">
+        <h1 style="color:whitesmoke;">ABOUT US</h1>
+        <p style="font-size: 20px;"><b>Aim of our project is to build a platform like a directory to make the search for NGOs easier. It will help to establish a connection between NGOs and the enthusiast users who would like to volunteer to work or provide donations to help benefit the good cause carried out by different NGOs.</b> </p>
+        <p style="color: white; font-size: 20px;">Objectives of this project is to generate a systematic, user -friendly search engine website for the users and to bring all small and big NGO onto the same platform.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Aditya Mavle</h2>
+              <p class="title">Entc Department </p>
+              <p>Contribution : Backend (django framework)</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Khyati Kulkarni</h2>
+              <p class="title">Entc Department</p>
+              <p>Contribution : Frontend (Html, css, js) </p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Neha Rathod</h2>
+              <p class="title">Entc Department</p>
+              <p>Contribution : Frontend (Html, css, js)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Roshani</h2>
+            <p class="title">Entc Department</p>
+            <p>Contribution : Html, css, django</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Rushikesh Patil</h2>
+            <p class="title">Entc Department</p>
+            <p>Contribution : Frontend (html, css)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <h2>Smita Naik</h2>
+            <p class="title">Entc Department</p>
+            <p>Contribution : Content, UI/UX interface</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="{% url 'home' %}"><p style="text-align: center;">HOME</p></a>
+
+</body>
+</html>

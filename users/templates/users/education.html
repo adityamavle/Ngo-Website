@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'table.css'%}">
+    <title>EDUCATION</title>
+</head>
+<body style="background: -webkit-linear-gradient(left,yellow, orange);
+background: linear-gradient(to right,yellow, orange);">
+
+<h1> <b>EDUCATIoNAL NGOs</b>  </h1>
+<section style="height: 0%;">
+    <nav>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <li><a href="{% url 'wildlifenecology'%}">WILDLIFE AND ECOLOGY</a></li>
+          <li><a href="{% url 'childcare' %}">CHILDCARE</a></li>
+          <li><a href="{% url 'healthcare'%}">HEALTHCARE</a></li>
+          <li><a href="{% url 'womendev' %}">WOMEN DEVELOPMENT</a></li>
+          <li><a href="{% url 'agriculture'%}">AGRICULTURE</a></li>
+
+           <li style="float:right"><a href="{% url 'home'%}" class="active">BACK TO HOME</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="column">
+          <img src="{% static 'edu1.gif'%}" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'edu2.gif'%}"alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'edu3.gif'%}" alt="" style="width:100%">
+        </div>
+      </div>
+    <br>
+    
+</section>
+
+
+    <section style="background-color: darkslategray;">
+        
+        
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-top-width: 5%;">
+            <thead>
+              <tr style="background-color: darkslategray;">
+                <td width="80px" style="font-size: 25px;color: #fff;">Sr No.</td>
+                <td style="font-size: 25px;color: #fff;">Name of the NGO</td>
+                <td style="font-size: 25px;color: #fff;">Location</td>
+                <td style="font-size: 25px;color: #fff;">Link to their webpage</td>
+
+            </tr>
+              
+            </thead>
+            <tr>
+
+              <td>1</td>
+              <td>Sevavardhini</td>
+              <td>Sewavardhini, 390-B, narayan peth, dattadham appts, rashtrabasha bhavan lane, Pune</td>
+              <td> <a href="http://www.sevavardhini.org/">http://www.sevavardhini.org/</a> </td>
+          </tr>
+          <td>2</td>
+          <td>SAMPARC : Social Action for Manpower Creation</td>
+          <td>Plot no. 292, 9 Varad Apartment, Yashwant nagar, Talegaon Dabhade, near Talegaon Railway Staion, Pune- 410507</td>
+          <td> <a href="http://www.samparc.org">http://www.samparc.org</a> </td>
+          </tr>
+          <td>3</td>
+          <td>Rss Janakalyan samiti maharashtra prant</td>
+          <td>Plot no. 1609, Bhageshwar Niwas, Sadashiv Peth, Pune</td>
+          <td> <a href="https://www.rssjankalyan.org/">https://www.rssjankalyan.org/</a> </td>
+          </tr>
+          <td>4</td>
+          <td>Ballerina Management Institute Trust</td>
+          <td>Plot no. 1011/19, "indira", Mitranagar,Deep Bunglow Chowk,Model Colony, Shivajinagar, Pune-411016</td>
+          <td><a href="http://www.bmiindia.net">http://www.bmiindia.net</a> </td>
+          </tr>
+          <td>5</td>
+          <td>Rostram India Social Organisation</td>
+          <td>RISO Office No 1, 1st Floor, Chandrashila Complex, Above Honda Showroom, Opp Ashirwad Mangal Karyalaya, NDA Road, Shivane, Pune</td>
+          <td> <a href="http://www.rostrumindia.org">http://www.rostrumindia.org</a> </td>
+          </tr>
+          <td>6</td>
+          <td>Yash Education Society</td>
+          <td>A/P. 09, Nira, Tal, Purandar, Pune-412102</td>
+          <td> <a href="http://www.yesngo.org.in">http://www.yesngo.org.in</a> </td>
+          </tr>
+          <td>7</td>
+          <td>Y4D Foundation</td>
+          <td>Y4D Foundation, C-302, Sr/No 203/1, Callisto, Near Pink City, Wakad-411057</td>
+          <td> <a href="http://Y4D.NGO">http://Y4D.NGO</a> </td>
+          </tr>
+          <td>8</td>
+          <td>ATMA : Accelerator For Education</td>
+          <td>Flat no. 8, 4th floor, Leela Manik Apartment, 440, Mudaliar Road, Rasta Peth, Camp, Pune-411011</td>
+          <td> <a href="https://atma.org.in">https://atma.org.in</a> </td>
+          </tr>
+          <td>9</td>
+          <td>Swayam Shikshan Prayog</td>
+          <td>102, First Floor, Gayatri Building, Orchid School Lane, Balewadi Phata, Baner, Pune-411045</td>
+          <td> <a href="http://www.swayamshikshanprayog.org">http://www.swayamshikshanprayog.org</a> </td>
+          </tr>
+          <td>10</td>
+          <td>Nag Foundation</td>
+          <td>Farrjeste, 3, Boat Club Rd, Sangamvadi, Pune-411001</td>
+          <td> <a href="http://www.nagfoundation.org">http://www.nagfoundation.org</a> </td>
+          </tr>
+          <td>11</td>
+          <td>Pune Neurosciences Trust and Research Societys (SAMAVEDANA)</td>
+          <td>C/o Sahyadri Corporate Office, Plot no. 54, Lane no.2, Lokmanya Colony, opp. Jeet ground, Paud Road, Kothrud, Pune</td>
+          <td> <a href="http://www.samavedana.org">http://www.samavedana.org</a> </td>
+          </tr>
+          <td>12</td>
+          <td>Vidya Pratishthan</td>
+          <td>Vidya Pratishthan ,Vidya Nagari , MIDC, Baramati, Pune-413133</td>
+          <td> <a href="http://www.viitindia.org">http://www.viitindia.org</a> </td>
+          </tr>
+          <td>13</td>
+          <td>Disha Pratishthan</td>
+          <td>Shop no. 24, Greenland County Shopping Complex, Manajinagar, Narhe, Pune 411041</td>
+          <td> <a href="http://disha.org.in">http://disha.org.in</a> </td>
+          </tr>
+          <td>14</td>
+          <td>Indus Core Education Foundation</td>
+          <td>G-7, Karan Greens, Mumbai Bangalore Highway, Near Rosary International School, Pune</td>
+          <td> <a href="http://www.induseducationfoundation.org">http://www.induseducationfoundation.org</a> </td>
+          </tr>
+          <td>15</td>
+          <td>Seva Foundation</td>
+          <td>A/P 04, Kawathe Yemai Tal, Shirur, Pune-412218</td>
+          <td> <a href="http://www.sevamh.org">http://www.sevamh.org</a> </td>
+          </tr>
+            
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+     <!-- follow me template -->
+      <div class="made-with-love">
+        <h2>Made with <i style="font-size: large;">♥</i> by <a href="{% url 'about'%}">Students of PICT</a> </h2>
+      </div>
+      <script src="{% static 'table.js'%}"></script>
+    
+</body>
+</html>

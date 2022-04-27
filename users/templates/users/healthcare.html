@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'table.css'%}">
+    <title>HEALTHCARE</title>
+</head>
+<body style="background-color: darkslategrey;background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+background: linear-gradient(to right, #25c481, #25b7c4);">
+
+<h1> <b>HEALTHCARE NGOs</b>  </h1>
+<section style="height: 0%;">
+    <nav>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <li><a href="{% url 'wildlifenecology'%}">WILDLIFE AND ECOLOGY</a></li>
+          <li><a href="{% url 'childcare' %}">CHILDCARE</a></li>
+          <li><a href="{% url 'healthcare'%}">HEALTHCARE</a></li>
+          <li><a href="{% url 'womendev' %}">WOMEN DEVELOPMENT</a></li>
+          <li><a href="{% url 'agriculture'%}">AGRICULTURE</a></li>
+
+            <li style="float:right"><a href="{% url 'home'%}" class="active">BACK TO HOME</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="column">
+          <img src="{% static 'hc1.gif'%}" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'hc2.gif'%}"alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'hc3.gif'%}" alt="" style="width:100%">
+        </div>
+      </div>
+    <br>
+    
+</section>
+
+
+    <section style="background-color: darkslategray;">
+        
+        
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-top-width: 5%;">
+            <thead>
+              <tr style="background-color: darkslategray;">
+                <td width="80px" style="font-size: 25px;color: #fff;">Sr No.</td>
+                <td style="font-size: 25px;color: #fff;">Name of the NGO</td>
+                <td style="font-size: 25px;color: #fff;">Location</td>
+                <td style="font-size: 25px;color: #fff;">Link to their webpage</td>
+
+            </tr>
+                <tr>
+                  <td>1</td>
+                  <td>CASP - Community aid and sponsorship program : Pune</td>
+                  <td>CASP Head Office, CASP Bhavan, Survey No.132/2, Plot No.3, Pashan- Baner Link Road, Pune 411021, Maharshtra</td>
+                  <td> <a href="https://www.caspindia.org/">https://www.caspindia.org/</a> </td>
+              </tr>
+              <td>2</td>
+              <td>Umed Parivar</td>
+              <td>Umed Pariwar, Gate no. 949, Wadaki Village, Near Foothills of Kanifnath Temple, Hadapsar-Saswad Road, Pune 412308, Maharashtra</td>
+              <td> <a href="https://umedpariwar.org/">https://umedpariwar.org/</a> </td>
+              </tr>
+              <td>3</td>
+              <td>Ayodhya Charitable Trust</td>
+              <td>51/2 Vikas Nagar, Near SRPF Gate No – 2, Wanwadi, Pune 411040</td>
+              <td> <a href="https://www.ayodhyatrustpune.com/">https://www.ayodhyatrustpune.com/</a> </td>
+              </tr>
+              <td>4</td>
+              <td>Devika Foundation</td>
+              <td>4Th Floor,Vasant-Kamal Apartment, 263 Narayan Peth,Near Garud Ganapati, Pune, Maharashtra - 411040</td>
+              <td><a href="http://www.doaram.com/organization/devika-foundation">http://www.doaram.com/organization/devika-foundation</a> </td>
+              </tr>
+              <td>5</td>
+              <td>Manavya </td>
+              <td>46/3/1. Laxman Villa, Flat No. 13, Near Jog Hospital, Paud Road, Pune Maharashtra 411038</td>
+              <td> <a href="https://manavya.org/">https://manavya.org/ </a> </td>
+              </tr>
+              <td>6</td>
+              <td>Maharashtra Arogya Mandal </td>
+              <td>165-A, Malwadi, Hadapsar, Pune- 411028, Maharashtra, India</td>
+              <td> <a href=" http://mam.org.in/"> http://mam.org.in/</a> </td>
+              </tr>
+              <td>7</td>
+              <td>Lokmanya Medical Research Centre</td>
+              <td>Survey No 314/B, Telco Road, Near Chinchwad Rly station, Chincwad Pune - 411033</td>
+              <td> <a href="http://www.lmrc.in/">http://www.lmrc.in/</a> </td>
+              </tr>
+              <td>8</td>
+              <td>Connecting NGO</td>
+              <td>Atur Chambers, 2nd Floor,Above Coffee House, Opposite SGS Mall, Moledina Road, Camp, Pune 411001</td>
+              <td> <a href="http://connectingngo.org/">http://connectingngo.org/</a> </td>
+              </tr>
+              <td>9</td>
+              <td>Parivartan Trust</td>
+              <td>Parivartan Trust, Behind Civil Hospital, Sadar Bazaar, Satara, 415001,</td>
+              <td> <a href="https://www.mhinnovation.net/organisations/parivartan-trust">https://www.mhinnovation.net/organisations/parivartan-trust</a> </td>
+              </tr>
+              <td>10</td>
+              <td>Chaitanya Institute for mental health</td>
+              <td>Bhagat Puram, Srv. No. 31/A,Kondhwa BK, Near Khadi Machine Chowk, Pune - 411048,Maharashtra,</td>
+              <td> <a href="http://chaitanyarehab.com/">http://chaitanyarehab.com/</a> </td>
+              </tr>
+              <td>11</td>
+              <td>Sangnath</td>
+              <td>Headquarters : House no. 451 (168), Bhatkar Waddo, Socorro, Porvorim, Bardez, Goa</td>
+              <td> <a href="https://sangath.in/">https://sangath.in/</a> </td>
+              </tr>
+              <td>12</td>
+              <td>Seva Sahayog Foundation</td>
+              <td>18 Vrindavan Society, Pathik Bungalow, Near Mhatre Bridge, Navi peth, Pune 411030</td>
+              <td> <a href="http://sevasahayog.org/">http://sevasahayog.org/</a> </td>
+              </tr>
+              <td>13</td>
+              <td>Sparsh Balgram</td>
+              <td>8, Jasraj complex, 2nd floor, Above Pune Jilha Madhyavarti Bank, Pune-Mumbai old highway, Nr. Khadaki Rl.Station, Bopodi, Pune- 411003,</td>
+              <td> <a href="http://www.sparshbalgram.in/">http://www.sparshbalgram.in/</a> </td>
+              </tr>
+              <td>14</td>
+              <td>Global Vision NGO</td>
+              <td>Branch Office: 406, 406 A, Sterling Center, 4th Floor, M G Road, Camp, Pune - 411001</td>
+              <td> <a href=" http://globalvisionngo.org/"> http://globalvisionngo.org/</a> </td>
+              </tr>
+      
+              
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+      
+     <!-- follow me template -->
+      <div class="made-with-love">
+        <h2>Made with <i style="font-size: large;">♥</i> by <a href="{% url 'about'%}">Students of PICT</a> </h2>
+      </div>
+      <script src="{% static 'table.js'%}"></script>
+    
+</body>
+</html>

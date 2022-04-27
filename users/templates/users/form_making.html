@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <title>SIGNUP PAGE</title>
+    <link rel="stylesheet" href="form_style2.css">
+</head>
+<body>
+    <form>
+        <h2>SIGNUP</h2>
+        <ul class="nav">
+            <li onclick="showLogin()">Login</li>
+            
+          </ul>
+        <p>FIRST NAME: <input type="text" name="first_name"> </p>
+        <p>LAST NAME: <input type="text" name="last_name"> </p>
+        <fieldset>
+            <legend>GENDER</legend>
+            <p>
+            MALE <input type="radio" name="gender">
+            FEMALE <input type="radio" name="gender">
+            OTHER <input type="radio" name="gender">
+            </p>
+        </fieldset>  
+        <p>BIRTH DATE<input type="date" name="date" id="birth_date"></p>
+        <p>EMAIL <input type="email" name="email " id="email"></p>
+        <p>CONTACT NUMBER: <input type="number" name="cardno" id="cardno"> </p>
+        <p>USERNAME <input type="text" name="first_name"> </p>
+        <p>CREATE PASSWORD <input type="password" name="pass" id="pass"></p>
+        <p>CONFIRM PASSWORD <input type="password" name="pass" id="pass"></p>
+        <p>HOW YOU WANT TO CONTRIBUTE ?
+            <select name="Contribution type" id="card_type">
+                <option value="">SELECT AN OPTION </option>
+                <option value="volunteer">VOLUNTEER</option>
+                <option value="donate">DONATE</option>
+                
+            
+            </select>    
+        </p>
+         
+        <hr>
+        
+        <input type="submit" value="SIGN UP">
+
+        <ul class="nav">
+            <li onclick="showForgotPassword()">Forgot password</li>
+
+
+        </ul>
+
+    
+    </form>
+    
+</body>
+</html>

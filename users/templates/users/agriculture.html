@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'table.css'%}">
+    <title>AGRICULTURE</title>
+</head>
+<body style="background-color: darkslategrey;background: -webkit-linear-gradient(left,darkgreen, darkblue);
+background: linear-gradient(to right, darkgreen, darkblue);">
+
+<h1> <b>AGRICULTURAL NGOs</b>  </h1>
+<section style="height: 70%;">
+    <nav>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+          <li><a href="{% url 'wildlifenecology'%}">WILDLIFE AND ECOLOGY</a></li>
+          <li><a href="{% url 'childcare' %}">CHILDCARE</a></li>
+          <li><a href="{% url 'education'%}">EDUCATION</a></li>
+          <li><a href="{% url 'healthcare'%}">HEALTHCARE</a></li>
+          <li><a href="{% url 'womendev' %}">WOMEN DEVELOPMENT</a></li>
+          <li><a href="{% url 'agriculture'%}">AGRICULTURE</a></li>
+
+            <li style="float:right"><a href="{% url 'home'%}" class="active">BACK TO HOME</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="column">
+          <img src="{% static 'agri2.gif'%}" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'agri1.gif'%}"alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'agri3.gif'%}" alt="" style="width:100%">
+        </div>
+      </div>
+    <br>
+    
+</section>
+
+    <section style="background-color: darkslategray;">
+        
+        
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-top-width: 5%;">
+            <thead>
+              <tr style="background-color: darkslategray;">
+                <td width="80px" style="font-size: 25px;color: #fff;">Sr No.</td>
+                <td style="font-size: 25px;color: #fff;">Name of the NGO</td>
+                <td style="font-size: 25px;color: #fff;">Location</td>
+                <td style="font-size: 25px;color: #fff;">Link to their webpage</td>
+
+            </tr>
+            <tr>
+
+              <td>1</td>
+              <td>Shivprabha Charitable Trust</td>
+              <td>C/o Ashish Kalawar, A-104, kaasp country, Kaspte Vasti, Wakad, Pune-411057</td>
+              <td> <a href="http://www.shivprabha.org">http://www.shivprabha.org</a> </td>
+          </tr>
+          <td>2</td>
+          <td>Janarth</td>
+          <td>Ambience Empyrean Apartments, Wing A, Flat No. 1, Ghorpadi, Sopan Baug, Behind Empress garden, Pune</td>
+          <td> <a href="http://www.janarth.org">http://www.janarth.org</a> </td>
+          </tr>
+          <td>3</td>
+          <td>Gramonnati Mandal</td>
+          <td>Gramonnati Mandal, Krishi Vigyan Kendra Pune-Nasik Highway, Narayangaon Tal-Junnar, Pune-410504</td>
+          <td> <a href="http://gramonnatiedu.com">http://gramonnatiedu.com</a> </td>
+          </tr>
+          <td>4</td>
+          <td>March Model Action For Rural Change</td>
+          <td>"SHIVNERI", A-34,Survey no-71/1 2 , Lane no-2 ,Krishna nagar, New Sangavi, Pune-411027</td>
+          <td><a href="http://www.marchngo.org">http://www.marchngo.org</a> </td>
+          </tr>
+          <td>5</td>
+          <td>Vegetable Growers Association of India</td>
+          <td>Icon Complex, 2nd floor, Near HP Pump, Narayangaon, Tal - Junnar, Pune-410504</td>
+          <td> <a href="http://www.vgai.org">http://www.vgai.org</a> </td>
+          </tr>
+          <td>6</td>
+          <td>Jnana Prabodhini</td>
+          <td>510, Sadashiv Peth, Pune 411030</td>
+          <td> <a href="http://jnanaprabodhini.org">http://jnanaprabodhini.org</a> </td>
+          </tr>
+          <td>7</td>
+          <td>Shankarrao Patil Charitable Trust</td>
+          <td>207/1 , Pune Solapur Highway , Near oil Padma oil agency , opposite Tirupati Petroleum & Hotel Radhika, Pune-413106</td>
+          <td> <a href="http://spctngo.org">http://spctngo.org</a> </td>
+          </tr>
+          <td>8</td>
+          <td>Agricultural Development Trust Baramati</td>
+          <td>Shardanagar, Malegaon Colony, Post Box No.- 35, Tal-Baramati, Pune-413115</td>
+          <td> <a href="http://www.agridevelopmenttrustbaramati.org">http://www.agridevelopmenttrustbaramati.org</a> </td>
+          </tr>
+          <td>9</td>
+          <td>Stars Forum</td>
+          <td>c/o Vigyan Ashram, JP Naik Centre for Education Guruganesh Nagar, Kothrud, Pune</td>
+          <td> <a href="http://www.starsforum.org">http://www.starsforum.org</a> </td>
+          </tr>
+          <td>10</td>
+          <td>Green Thumb Environmental Protection Group</td>
+          <td>Green Thumb 4-A, Nehru Marg, Off Ghorpadi Bazar, Pune</td>
+          <td> <a href="http://www.greenthumbindia.net">http://www.greenthumbindia.net</a> </td>
+          </tr>
+          <td>11</td>
+          <td>Gram Gourav Pratisthan</td>
+          <td>67, Industrial Estate, Hadapsar, Pune-411013</td>
+          <td> <a href="http://www.panipanchayat.org">http://www.panipanchayat.org</a> </td>
+          </tr>
+          <td>12</td>
+          <td>Bee Basket Society</td>
+          <td>804, D-4 Building, B-Wing, Rahul Park, Warje, Pune</td>
+          <td> <a href="https://www.beebasket.in">https://www.beebasket.in</a> </td>
+          </tr>
+          <td>13</td>
+          <td>Manav Mitra Foundation</td>
+          <td>A701-Ziggurat, Near Shogini Showroom, Pune</td>
+          <td> <a href="http://manavmitrafoundation.com">http://manavmitrafoundation.com</a> </td>
+          </tr>
+          <td>14</td>
+          <td>Shree Swami Samarth Charitable Trust</td>
+          <td>Zen bussiness centre, Office no. 305, near Sayaji hotel, Bhukumar chowk Wakad, Pune, 411037</td>
+          <td> <a href="http://www.shriswamisamarth.org/">http://www.shriswamisamarth.org/</a> </td>
+          </tr>
+          <td>15</td>
+          <td>Nisarg Mahila Balkalyan V Krushi Vikas Sanstha</td>
+          <td>M. Post Khanapur, house no. 300, near Sinhagad, Panshet road, Tal Haveli, Pune-411025</td>
+          <td> <a href="http://www.nmbkvs.pune.com">http://www.nmbkvs.pune.com</a> </td>
+          </tr>
+              
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+     
+      <!-- follow me template -->
+      <div class="made-with-love">
+        <h2>Made with <i style="font-size: large;">♥</i> by <a href="{% url 'about'%}">Students of PICT</a> </h2>
+      </div>
+      <script src="{% static 'table.js'%}"></script>
+    
+</body>
+</html>
+

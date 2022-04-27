@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'table.css'%}">
+    <title>WOMEN DEVELOPMENT</title>
+</head>
+<body style="background-color: darkslategrey;background: -webkit-linear-gradient(left, coral, olive);
+background: linear-gradient(to right, coral, olive);">
+
+<h1> <b>WOMENCARE NGOs</b>  </h1>
+<section style="height: 0%;">
+    <nav>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <li><a href="{% url 'agriculture'%}">Agriculture</a></li>
+            <li><a href="{% url 'childcare' %}">CHILDCARE</a></li>
+            <li><a href="{% url 'education'%}">EDUCATION</a></li>
+            <li><a href="{% url 'healthcare'%}">HEALTHCARE</a></li>
+            <li><a href="{% url 'wildlifenecology'%}">WILDLIFE AND ECOLOGY</a></li>
+            
+            <li style="float:right"><a href="{% url 'home'%}" class="active">BACK TO HOME</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="column">
+          <img src="{% static 'wd1.gif'%}" alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'wd2.gif'%}"alt="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="{% static 'wd3.gif'%}" alt="" style="width:100%">
+        </div>
+      </div>
+    <br>
+    
+</section>
+
+  
+
+
+    <section style="background-color: darkslategray;">
+        
+        
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-top-width: 5%;">
+            <thead>
+              <tr style="background-color: darkslategray;">
+                <td width="80px" style="font-size: 25px;color: #fff;">Sr No.</td>
+                <td style="font-size: 25px;color: #fff;">Name of the NGO</td>
+                <td style="font-size: 25px;color: #fff;">Location</td>
+                <td style="font-size: 25px;color: #fff;">Link to their webpage</td>
+
+            </tr>
+                <tr>
+
+ 
+
+                  <td>1</td>
+      
+                  <td>Ishanya Foundation: Women </td>
+      
+                  <td>232, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014
+      
+                  </td>
+      
+                  <td> <a href="http://www.ishanyafoundation.org/">http://www.ishanyafoundation.org/</a> </td>
+      
+              </tr>
+      
+              <td>2</td>
+      
+              <td>Swdhar </td>
+      
+              <td> Survey No, Flat No. 10, Malavika Society, 61, Erandwane, Pune, Maharashtra 411004
+      
+              </td>
+      
+              <td> <a href="https://www.swadharpune.org/">https://www.swadharpune.org/</a> </td>
+      
+              </tr>
+      
+              <td>3</td>
+      
+              <td>Nahni Kali  </td>
+      
+              <td>Plot no 616, Village kuruli,Pune-Nashik Road, Chakan Dist.Pune-410201, Maharashtra, India. 02135 327104/105/106</td>
+      
+              <td> <a href="http://www./donor.nanhikali.org">http://www./donor.nanhikali.org
+      
+              </a> </td>
+      
+              </tr>
+      
+              <td>4</td>
+      
+              <td>Akshara Center </td>
+      
+              <td>Akshara Centre Dhuru Bldg, 2nd floor, opp Bank of Maharashtra Gokhale Road, Dadar West, Mumbai 400028, India Tel: 022 24328699</td>
+      
+              <td> <a href="https://aksharacentre.org/">https://aksharacentre.org/</a> </td>
+      
+              </tr>
+      
+              <td>5</td>
+      
+              <td>Janhvi Foundation  </td>
+      
+              <td>Vilochan Residency Near Dnaydeep School Narhe, Tal Haveli, Dist, Pune, Maharashtra 411041
+      
+              </td>
+      
+              <td> <a href="https://janhvifoundation.com/">https://janhvifoundation.com/ </a> </td>
+      
+              </tr>
+      
+              <td>6</td>
+      
+              <td>Idea Foundation  </td>
+      
+              <td>Survey Number :18/2/6B, B-4, Chaitanya Society, Brahmachaitanya Society lane, Near Ambedkar Chowk, Warje Pune, Maharashtra, India 411058
+      
+              </td>
+      
+              <td> <a href="http://www.ideafoundation.org.in
+      
+                  ">http://www.ideafoundation.org.in
+      
+              </a> </td>
+      
+              </tr>
+      
+              <td>7</td>
+      
+              <td>Center of Reproductive Rights -  </td>
+      
+              <td>FVC3+GQV, Chhatrapati Sambhaji Nagar, Yashwantrao Chavan Nagar, Pune, Maharashtra 411043</td>
+      
+              <td> <a href="https://reproductiverights.org/">https://reproductiverights.org/ </a> </td>
+      
+              </tr>
+      
+              <td>8</td>
+      
+              <td>SEWA  </td>
+      
+              <td>ART Shelter, Manjri - Theur Road, Manjari Khurd, Pune - 412307, Behind Raj Washing Centre , Sonarwada (Map)</td>
+      
+              <td> <a href="https://www.sewa.org/">https://www.sewa.org/ </a> </td>
+      
+              </tr>
+      
+              <td>9</td>
+      
+              <td>CREA </td>
+      
+              <td>315, Abhas, Lane No. 19, Mahatma Society, Kothrud, Pune - 411028</td>
+      
+              <td> <a href="http://forrest-india.org/">http://forrest-india.org/ </a> </td>
+      
+              </tr>
+      
+              <td>10</td>
+      
+              <td>Ecosan Services Foundation   </td>
+      
+              <td>24 Prashant Nagar, 721/1 Navi Peth, Off LBS Road, Pune, Maharashtra, Maharashtra 411030</td>
+      
+              <td> <a href="https://www.ecosanservices.org/">https://www.ecosanservices.org/ </a> </td>
+      
+              </tr>
+      
+              <td>11</td>
+      
+              <td>Swaniti  </td>
+      
+              <td>The Forum, 2nd Floor, Pune-Satara Road, Padmavati Corner, above Ranka Jwellers, Parvati, Pune, Maharashtra 411009</td>
+      
+              <td> <a href="https://www.swaniti.com/">https://www.swaniti.com/ </a> </td>
+      
+              </tr>
+      
+              <td>12</td>
+      
+              <td>Snehalaya  </td>
+      
+              <td>239 F Block, MIDC, · Ahmednagar, · Maharashtra 414111, India ·</td>
+      
+              <td> <a href="http://www.snehalaya.org">http://www.snehalaya.org </a> </td>
+      
+              </tr>
+      
+              <td>13</td>
+      
+              <td>Azad Foundation</td>
+      
+              <td>SHAIKH AIJAZ A. AZIZ AMAN ROAD C BOLCK KHORI GALLI LATUR </td>
+      
+              <td> <a href="http://azadfoundation.com/">http://azadfoundation.com/ </a> </td>
+      
+              </tr>
+      
+              <td>14</td>
+      
+              <td>Vimochana </td>
+      
+              <td>Vimochana, #33/1-9, 4th Cross, Thyagaraja Layout, Jaibharath Nagar, Maruthi Sevanagar, Bengaluru 560-033, Karnataka. </td>
+      
+              <td> <a href="http://www.aerfindia.org/">http://www.aerfindia.org/ </a> </td>
+      
+              </tr>
+      
+              <td>15</td>
+      
+              <td>MAKAM  </td>
+      
+              <td>MAKAAM - MAHILA KISAN ADHIKAAR MANCH,
+      
+       
+      
+                  C/O GRAMYA RESOURCE CENTRE FOR WOMEN,
+      
+                 
+      
+                  12-13-440,Street # 1, Tarnaka,
+      
+                 
+      
+                  Secunderabad 500017 (INDIA)/td>
+      
+              <td> <a href="http://makaam.in/
+      
+                  ">http://makaam.in/
+      
+              </a> </td>
+      
+              </tr>
+      
+              <td>16</td>
+      
+              <td>Janodaya  </td>
+      
+              <td>3, 5th Main, 9th Cross Rd, Jayamahal Extension, Bengaluru, Karnataka 560046 </td>
+      
+              <td> <a href=" http://janodaya.org/
+      
+                  "> http://janodaya.org/
+      
+              </a> </td>
+      
+              </tr>
+      
+             
+      
+       
+              
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+      
+      <!-- follow me template -->
+      <!-- follow me template -->
+      <div class="made-with-love">
+        <h2>Made with <i style="font-size: large;">♥</i> by <a href="{% url 'about'%}">Students of PICT</a> </h2>
+      </div>
+      <script src="{% static 'table.js'%}"></script>
+    
+    
+</body>
+</html>

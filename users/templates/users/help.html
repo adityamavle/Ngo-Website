@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <title>Help</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body style="background:-webkit-linear-gradient(top,yellow,orange);background: linear-gradient(to bottom, yellow, orange);">
+    <h1 style="text-align: center;">HELP</h1>
+    <section style="background: -webkit-linear-gradient(top,lightyellow,lightgrey); background:linear-gradient(to bottom,lightyellow,lightgrey);">
+      <h2><b>Sign Up Module</b> </h2>  <br>
+<p style="font-size :20px;">VOs/NGOs need to sign up with the Portal only once in order to avail the facilities/features made available through the Portal. They can update their profile any time they wish to. They need to create their unique login user ID. and profile. Copy of the registration certificate should be scanned in the PDF format or JPG format (should be less than 2 MB size) and submitted under the concerned option.
+    Multiple selections are possible using the 'Control' key. On selection of a particular state, you would get the list of districts of the selected state, for selection of districts working in.</p> 
+<br>
+
+<h2><b>Sections of this Module</b></h2>
+<br> 
+<p style="font-size: 20px;">
+    NGO Directory
+This section of the module provides a sector -wise list of NGOs in Pune. It allows you to search for NGOs by sector and by name.
+Please Note:
+If you click on a hyperlink given in any portion of this Portal and a new browser window opens with the symbol Disclaimer on the top right corner, it implies that the opened page is outside our website. The contents on such a page are owned and maintained by the respective Department and we are not responsible for their currency and/or accuracy.
+If JavaScript is disabled, use the Favorites menu of the Web browser to add a link to fav.
+    
+</p>
+</section>
+
+<a href={% url 'home'%}><p style="text-align: center;">HOME</p></a>
+
+    
+</body>
+</html>

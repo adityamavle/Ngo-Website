@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <title>SIGNUP PAGE</title>
+    <link rel="stylesheet" href="{% static 'form_style2.css'%}">
+</head>
+<body>
+    <h1>LOG IN</h1>
+    <form>
+        
+        <ul class="nav">
+            <li onclick="showSignup()"><a href="{% url 'signup'%}">Signup</a></li>
+            
+          </ul>
+          <br>
+        <section  style="background: -webkit-linear-gradient(top,white,pink); background: linear-gradient(to bottom,white,pink);">
+            <p>USERNAME: <input type="text" name="user_name"> </p>
+        <p>PASSWORD: <input type="password" name="pass" id="pass"></p>
+        
+         
+        
+        
+        <input type="submit" value="LOG IN">
+
+        <ul class="nav">
+            <li onclick="showForgotPassword()">Forgot password</li>
+
+
+        </ul>
+        </section>  
+        
+
+    
+    </form>
+
+    <section style="background-color: lightpink;">
+        <a href="{% url 'home'%}"><p style="text-align: center;">HOME</p></a>
+    </section>
+    
+    
+</body>
+</html>
