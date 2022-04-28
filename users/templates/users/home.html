@@ -1,153 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
-    <title>NGO SEARCH ENGINE</title>
-    <link rel="stylesheet" href="{% static 'style.css'%}" />
+    <title>NGO SEARCH ENGINE </title>
+    <link rel="stylesheet" href="{% static 'style.css'%}">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1 style="text-align: center">NGO SEARCH ENGINE</h1>
+    
+</head>
+<body>
+    <h1 style="text-align: center;" >NGO SEARCH ENGINE</h1>
     <header>
-      <section>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-
-        <nav id="main-menu" class="navbar" role="navigation">
-          <div class="navbar-header">
-            <button
-              type="button"
-              class="btn btn-navbar navbar-toggle"
-              data-toggle="collapse"
-              data-target=".navbar-cat-collapse"
-            >
-              <span class="sr-only">Toggle Navigation</span>
-              <i class="fa fa-bars"></i>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse navbar-cat-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="{% url 'home' %}">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Pages</a></li>
-              <li><a href="{% url 'about' %}">Contact Us</a></li>
-            </ul>
-          </div>
-        </nav>
-        <br />
-        <br />
-
         <section>
-          <div>
-            <img
-              src="{% static 'img.gif'%}"
-              alt=""
-              width="200"
-              height="200"
-              id="l"
-            />
-            <br />
-            <p style="font-size: 20px">
-              <span style="color: red; font-size: 25px"
-                ><b>INTRODUCTION</b></span
-              >
-              • A non-governmental organization (NGO) is an organization that is
-              neither a part of a government nor a conventional for-profit
-              business. • NGOs may be funded by governments, foundations,
-              schools, businesses or private people. • Some may have charitable
-              status, while others may be registered for tax exemption based on
-              recognition of social purposes. Others may be fronts for
-              political, religious, or other interests.
-            </p>
-          </div>
-          <div>
-            <img
-              src="{% static 'img2.gif'%}"
-              alt=""
-              width="200"
-              height="200"
-              id="r"
-            />
-            <br />
-            <p style="font-size: 20px">
-              <span style="color: red; font-size: 25px"><b>HISTORY</b></span
-              >• The term "non-governmental organization" was first coined in
-              1945, when the United Nations (UN) was created and there were 1083
-              NGOs. • According to the UN any kind of private organization that
-              is independent from government control can be termed as ‘NGO’. •
-              In some countries the term NGO is applied to an organization that
-              in another country would be called as NPO (non profit
-              organization). • International NGOs were important in the
-              anti-slavery movement and the movement for women's suffrage. •
-              Based on Societies Registration Act (SRA) NGO was approved in
-              1860. • India is estimated to had around 2 million NGOs in 2014.
-            </p>
-          </div>
-          <br />
-          <div>
-            <img
-              src="{% static 'ngo4.gif'%}"
-              alt=""
-              width="200"
-              height="200"
-              id="l"
-            />
+            <nav>
+                <div class="navbar">
+                    <a>HOME</a>
+                    <a href="{% url 'help'%}">HELP</a>
 
-            <p style="font-size: 20px">
-              <span style="color: red; font-size: 25px"
-                ><b>WORKING OF NGOs</b></span
-              >
-              1.FIRST TIER :- It is main source of funding. It includes
-              government bodies, international agencies or individuals
-              <br /><br />
-              2.SECOND TIER :– Main function of this tier is to distribute the
-              funds provided by first tier.<br /><br />
-              3.THIRD TIER :– This tier includes NGOs. Its function is to link
-              with fund applicant.<br /><br />
-              4.FOURTH TIER :– This tier represents the recipient of funds
-              provided by NGOs.
-            </p>
-          </div>
-          <br />
-          <br />
+                    <a href="{% url 'about'%}">ABOUT US</a>
+                    
+                    <a href="{% url 'education'%}">EDUCATION</a>
+                    <a href="{%url 'childcare'%}">CHILDCARE</a>
+                    <a href="{% url 'womendev' %}">WOMEN DEVELOPMENT</a>
+                    <a href="{% url 'healthcare'%}">HEALTHCARE</a>
+                    <a href="{% url 'agriculture'%}">Agriculture</a>
+        
+        
 
-          <div>
-            <img
-              src="{% static 'ngo3.jpg'%}"
-              alt=""
-              width="200"
-              height="200"
-              id="r"
-            />
-            <p style="font-size: 20px">
-              <span style="color: red; font-size: 25px"
-                ><b>ALTERNATIVE NAMES</b></span
-              >
-              • Apart from "NGO", there are many alternative terms in use,
-              including: 1.Third Sector Organization (TSO), <br />
-              2.Non-profit Organization (NPO), <br />
-              3.Voluntary Organization (VO), <br />
-              4.Civil Society Organization (CSO),<br />
-              5.Grassroots Organization (GO), <br />
-              6.Social Movement Organization (SMO),<br />
-              7.Private Voluntary Organization (PVO) <br />
-              8.Self-help Organization (SHO).
-            </p>
-          </div>
-          <br />
-          <br />
+                
+    
+                    <li style="float:right"><a href="{% url 'signup'%}" class="active">LOGIN / SIGNUP</a></li>
+                </div>
+            </nav>
+            <br>
+            <br>
+
+            <section >
+                <div>
+                <img src="{% static 'img.gif'%}" alt="" width="200" height="200" id="l"/>
+                <br>
+                <p style="font-size: 20px;"><span style="color: red; font-size: 25px;"><b>INTRODUCTION</b></span> • A non-governmental organization (NGO) is an organization that is neither a part of a government nor a conventional for-profit business. • NGOs may be funded by governments, foundations, schools, businesses or private people. • Some may have charitable status, while others may be registered for tax exemption based on recognition of social purposes. Others may be fronts for political, religious, or other interests.</p>
+            </div>
+            <div>
+                <img src="{% static 'img2.gif'%}" alt="" width="200" height="200" id="r">
+                <br>
+                <p style="font-size: 20px;"><span style="color: red; font-size: 25px;"><b>HISTORY</b></span>• The term "non-governmental organization" was first coined in 1945, when the United Nations (UN) was created and there were 1083 NGOs. • According to the UN any kind of private organization that is independent from government control can be termed as ‘NGO’. • In some countries the term NGO is applied to an organization that in another country would be called as NPO (non profit organization).
+                 • International NGOs were important in the anti-slavery movement and the movement for women's suffrage. • Based on Societies Registration Act (SRA) NGO was approved in 1860. • India is estimated to had around 2 million NGOs in 2014.
+                     </p>
+
+            </div>
+            <br>
+            <div>
+                <img src="{% static 'ngo4.gif'%}" alt="" width="200" height="200" id="l">
+                
+                <p style="font-size: 20px;"><span style="color: red; font-size: 25px;"><b>WORKING OF NGOs</b></span>
+                    1.FIRST TIER :- It is main source of funding. It includes government bodies, international agencies or individuals <br><br>
+                    2.SECOND TIER :– Main function of this tier is to distribute the funds provided by first tier.<br><br>
+                    3.THIRD TIER :– This tier includes NGOs. Its function is to link with fund applicant.<br><br>
+                    4.FOURTH TIER :– This tier represents the recipient of funds provided by NGOs.
+                    </p>
+
+            </div>
+            <br>
+            <br>
+            
+            
+            <div>
+                <img src="{% static 'ngo3.jpg'%}" alt="" width="200" height="200" id="r">
+                <p style="font-size: 20px;"><span style="color: red; font-size: 25px;"><b>ALTERNATIVE NAMES</b></span> • Apart from "NGO", there are many alternative terms in use, including:
+                     1.Third Sector Organization (TSO), <br>
+                     2.Non-profit Organization (NPO), <br>
+                     3.Voluntary Organization (VO), <br>
+                     4.Civil Society Organization (CSO),<br>
+                     5.Grassroots Organization (GO), <br>
+                     6.Social Movement Organization (SMO),<br> 
+                     7.Private Voluntary Organization (PVO) <br> 
+                     8.Self-help Organization (SHO).</p>
+            </div>
+            <br>
+            <br>
+            
         </section>
 
         <div class="made-with-love">
-          <h2>
-            Made with <i style="font-size: large">♥</i> by
-            <a href="{% static 'about.html'%}">Students of PICT</a>
-          </h2>
-        </div>
-      </section>
+            <h2>Made with <i style="font-size: large;">♥</i> by <a href="{% static 'about.html'%}">Students of PICT</a> </h2>
+          </div>
+            
+        </section>
+        
+        
     </header>
-  </body>
+
+
+    
+</body>
 </html>
